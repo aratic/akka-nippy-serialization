@@ -1,14 +1,27 @@
 # serialization
 
-A Clojure library designed to ... well, that part is up to you.
+forked from https://github.com/MarchLiu/akka-nippy-serialization
+
+
+A tutorial / demo [clojure](https://clojure.org/) project
+
+few illustrative usage on [nippy](https://github.com/ptaoussanis/nippy) for serialization, and [akka](https://akka.io/) for events
+
+Chinese version post at [中文帖子](https://zhuanlan.zhihu.com/p/54676791)
 
 ## Usage
 
-FIXME
+
+    lein run -m left
+    lein run -m right
+
+
+## TODO
+
+- a minor data persistency layer
+- fix missing artifacts, says liu.mars:akka-clojure:jar:0.1.0
+
 
 ## License
 
-Copyright © 2019 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+GPL
